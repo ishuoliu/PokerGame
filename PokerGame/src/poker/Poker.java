@@ -4,7 +4,7 @@ package poker;
 // another change v2
 
 // 2024/9/26
-// modification 1
+// modification v1
 
 
 public class Poker {
