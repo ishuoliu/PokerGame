@@ -30,16 +30,17 @@ public class PokerTest {
 		result = poker.isFullHouse(input, 0);
 		assertEquals(false, result);
 	}
-	// Test case 2: n = 5, cards = {"C2", "D2", "H2", "S3", "S4"};
+
+	// change by bbb
+	
+	// Test case 3: n = 5, cards = {"DJ", "SJ", "CK", "DK", "HK"};
 	@Test
-	public void test22234() {
+	public void testJJKKK() {
 		boolean result;
-		String[] input = new String[] {"C2", "D2", "H2", "S3", "S4"};
+		String[] input = new String[] {"DJ", "SJ", "CK", "DK", "HK"};
 		result = poker.isFullHouse(input, 5);
-		assertEquals(false, result);
+		assertEquals(true, result);
 	}
-	
-	
 	// Test case 4: n = 5, cards = {"C3", "D3", "S3", "HX", "SX"};
 	@Test
 	public void test333XX() {
